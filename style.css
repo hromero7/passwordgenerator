@@ -1,0 +1,99 @@
+body {
+    color: white; 
+    font-weight: bold; 
+    font-size: 16px; 
+    margin: 0; 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    min-height: 85vh; 
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+}
+
+#container {
+    background-color: #445A70;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding: 20px; 
+    border-radius: 40px;
+    flex-direction: column;
+    width: 700px; 
+    border: 2px solid black; 
+    height: 250px; 
+}
+
+.formCriteria {
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    padding: 10px; 
+    margin-top: 20px; 
+}
+
+h1 {
+    margin: 0; 
+    text-align: center;
+    
+}
+
+
+#btn {
+    width: 250px; 
+    padding: 10px; 
+    background-color: rgb(4, 118, 153); 
+    border: 1px solid black; 
+    border-radius: 1rem; 
+    color: white; 
+     
+}
+
+#copy {
+    width: 250px; 
+    padding: 10px; 
+    background-color: #829CD0; 
+    border: 1px solid black; 
+    border-radius: 1rem; 
+    color: white; 
+    margin-left: 50px; 
+    
+    
+    
+}
+
+#buttons {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+   
+}
+
+#copy:hover {
+    background-color: #34495E;
+}
+
+#btn:hover {
+    background-color: #34495E;
+}
+
+h3 {
+    background-color: white; 
+    width: 450px; 
+    height: 200px; 
+    word-break: break-all; 
+    color: black; 
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    padding: 20px; 
+    border-radius: 1rem;
+}
+
+.check-box {
+    
+    
+}
+
+#invisible {
+    
+}
