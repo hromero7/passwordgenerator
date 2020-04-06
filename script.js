@@ -31,7 +31,7 @@ var password = [];
 
 generateEl.addEventListener("click", function(event) {
     event.preventDefault();
-    // generatedPass = [];
+    generatedPass = [];
     password = [];
     var passLength = prompt("Choose length of password. Min = 8, Max = 128");
     var passwordLength = parseInt(passLength, 10); 
